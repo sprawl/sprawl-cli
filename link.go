@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/eqlabs/sprawl-cli/cmd"
-	"github.com/eqlabs/sprawl/pb"
+	"github.com/eqlabs/sprawl-cli/pb"
 )
 
 func init() {
