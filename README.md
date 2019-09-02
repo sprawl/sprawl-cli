@@ -5,6 +5,11 @@ Sprawl-cli is a command line client for using Sprawl nodes directly. It's based 
 
 Since Sprawl uses port 1337 by default, the commands need the flag -s "address":"port". If you get any response, the commands should work.
 
+Build the tool:
+```bash
+go build
+```
+
 Joining channels:
 ```bash
 echo -ne '{"Asset": "BTC", "Counterasset": "ETH"}\n' | ./sprawl-cli channelhandler join -s localhost:1337
