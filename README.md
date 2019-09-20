@@ -1,9 +1,9 @@
 # Sprawl-cli
-Sprawl-cli is a command line client for using Sprawl nodes directly. It's based on https://github.com/fiorix/protoc-gen-cobra.
+Sprawl-cli is a command line client for using [Sprawl](https://github.com/eqlabs/sprawl) nodes directly. It uses generated protobuf code from Sprawl to create a protobuf client that's usable as a CLI.
 
 ## Usage
 
-Since Sprawl uses port 1337 by default, the commands need the flag -s "address":"port". If you get any response, the commands should work.
+The commands need the flag -s "address":"port". If you get any response, the commands should work.
 
 Build the tool:
 ```bash
